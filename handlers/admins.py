@@ -11,7 +11,7 @@ from cache.admins import admins
 from helpers.channelmusic import get_chat_id
 from helpers.decorators import authorized_users_only, errors
 from handlers.play import cb_admin_check
-from .helpers.filters import command, other_filters
+from helpers.filters import command, other_filters
 from callsmusic import callsmusic
 from callsmusic.queues import queues
 from config import LOG_CHANNEL, OWNER_ID, BOT_USERNAME, COMMAND_PREFIXES
