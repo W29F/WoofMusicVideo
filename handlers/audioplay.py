@@ -18,9 +18,9 @@ from config import (
     GROUP_SUPPORT,
     BOT_USERNAME,
 )
-from WoofieMusic.handlers.play import convert_seconds
-from WoofieMusic.helpers.filters import command, other_filters
-from WoofieMusic.helpers.gets import get_url, get_file_name
+from handlers.play import convert_seconds
+from helpers.filters import command, other_filters
+from helpers.gets import get_url, get_file_name
 
 
 @Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
